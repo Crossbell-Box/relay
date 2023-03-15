@@ -18,8 +18,7 @@ spec:
   template:
     metadata:
       labels:
-        app: xchar
-        tier: api
+        app: walletconnect-relay
     spec:
       containers:
         - image: $IMAGE_TAG_RELEASE
