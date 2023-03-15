@@ -5,13 +5,13 @@ on:
     branches:
       - master
     paths:
-      - 'src/**'
-      - 'ops/**'
-      - 'test/**'
-      - '.prettierrc'
-      - '*.json'
-      - 'Makefile'
-      - 'Dockerfile*'
+      - "src/**"
+      - "ops/**"
+      - "test/**"
+      - ".prettierrc"
+      - "*.json"
+      - "Makefile"
+      - "Dockerfile*"
 
 env:
   TERM: linux
