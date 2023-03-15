@@ -1,4 +1,4 @@
->This repo supported the initial alpha launch of WalletConnect v2 and is a sample implementation of the WalletConnect v2 protocol.  We __do not recommend__ its use and recommend to wait for the new open source version which we are actively working on. Self-hosted currently isn’t supported and we just closed a new funding round to support a decentralized network which will then support self-host again.
+> This repo supported the initial alpha launch of WalletConnect v2 and is a sample implementation of the WalletConnect v2 protocol. We **do not recommend** its use and recommend to wait for the new open source version which we are actively working on. Self-hosted currently isn’t supported and we just closed a new funding round to support a decentralized network which will then support self-host again.
 
 # WalletConnect Relay
 
@@ -28,7 +28,6 @@ test-production      runs "./packages/client" tests against the relay.walletconn
 test-relay           runs "./test" tests against the locally running relay
 test-staging         runs "./packages/client" tests against the staging.walletconnect.com
 ```
-
 
 ## License
 

@@ -131,7 +131,7 @@ export class HttpService {
       },
     );
     const server = this; //eslint-disable-line
-    this.app.register(async function(fastify) {
+    this.app.register(async function (fastify) {
       server.ws.websocketHandler(fastify);
     });
 

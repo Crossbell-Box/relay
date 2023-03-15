@@ -136,7 +136,9 @@ export class JsonRpcService {
     const jsonrpcMethod =
       request.method === RELAY_JSONRPC.iridium.subscribe
         ? RELAY_JSONRPC.iridium.subscription.toString()
-        : (request.method === RELAY_JSONRPC.waku.subscribe ? RELAY_JSONRPC.waku.subscription.toString() : RELAY_JSONRPC.irn.subscription.toString());
+        : request.method === RELAY_JSONRPC.waku.subscribe
+        ? RELAY_JSONRPC.waku.subscription.toString()
+        : RELAY_JSONRPC.irn.subscription.toString();
 
     const id = this.server.subscription.set({
       topic: params.topic,

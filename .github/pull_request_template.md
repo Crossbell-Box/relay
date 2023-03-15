@@ -10,10 +10,10 @@ Please include:
 
 ## Type of change
 
-* [ ] Bug fix
-* [ ] New feature
-* [ ] Breaking change
-* [ ] Requires a documentation update
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Breaking change
+- [ ] Requires a documentation update
 
 ## How Has This Been Tested?
 
